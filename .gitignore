@@ -32,3 +32,6 @@ mlflow.db
 mlflow.db-shm
 mlflow.db-wal
 mlflow.db-journal
+.coverage
+coverage.xml
+htmlcov/
