@@ -1,0 +1,78 @@
+{
+    "project_name": "Heart Disease Classification MLOps Pipeline",
+    "model_name": "Logistic Regression",
+    "model_key": "logistic_regression",
+    "model_file": "model.joblib",
+    "created_at_utc": "2026-10-25T17:29:01.084691+00:00",
+    "random_state": 42,
+    "test_size": 0.2,
+    "cross_validation_folds": 5,
+    "target_column": "target",
+    "target_definition": {
+        "0": "No heart disease",
+        "1": "Heart disease present"
+    },
+    "numerical_features": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak"
+    ],
+    "categorical_features": [
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "all_features": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak",
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "training_rows": 242,
+    "test_rows": 61,
+    "training_target_distribution": {
+        "0": 131,
+        "1": 111
+    },
+    "test_target_distribution": {
+        "0": 33,
+        "1": 28
+    },
+    "selection_criteria": [
+        "roc_auc",
+        "recall",
+        "f1"
+    ],
+    "best_parameters": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": "balanced"
+    },
+    "test_metrics": {
+        "accuracy": 0.8852459016393442,
+        "precision": 0.8387096774193549,
+        "recall": 0.9285714285714286,
+        "f1": 0.8813559322033898,
+        "roc_auc": 0.9664502164502164,
+        "best_cv_roc_auc": 0.9031400966183576,
+        "cv_roc_auc_mean": 0.9031400966183576,
+        "cv_roc_auc_std": 0.0165772924030752
+    },
+    "mlflow_run_id": "54d5cd9809c2459c996f78ec996c46d6",
+    "educational_use_notice": "This model is an educational MLOps demonstration and is not intended for clinical diagnosis."
+}
