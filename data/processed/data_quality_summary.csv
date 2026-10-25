@@ -1,0 +1,8 @@
+measure,value
+Number of rows,303
+Number of predictor features,13
+Number of target columns,1
+Exact duplicate rows after cleaning,0
+Total missing predictor values,6
+Negative target observations,164
+Positive target observations,139
