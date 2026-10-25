@@ -33,7 +33,6 @@ import mlflow.sklearn
 import numpy as np
 import pandas as pd
 import seaborn as sns
-
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
@@ -56,7 +55,6 @@ from sklearn.model_selection import (
 )
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-
 
 # -------------------------------------------------------------------
 # Project configuration
